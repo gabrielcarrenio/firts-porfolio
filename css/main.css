@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #0a192f;
+    color: #70f1da;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.logo img {
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+    height: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+}
