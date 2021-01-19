@@ -4,6 +4,15 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    align-items: center;
+}
+/* header */
 header {
     background: #0a192f;
     color: #70f1da;
@@ -42,11 +51,15 @@ header ul {
     text-decoration:underline;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    height: inherit;
-    align-items: center;
+/* hero */
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;   
+}
+
+.hero {
+    background: #0a192f;
+    display: flex;
+    align-items: flex-end;
 }
