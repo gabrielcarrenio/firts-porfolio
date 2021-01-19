@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 header {
@@ -11,12 +12,34 @@ header {
     height: 90px;
 }
 .logo img {
-    width: 100px;
+    width: 80px;
 }
 
 header ul {
     display: flex;
     height: inherit;
+}
+
+.nav-menu  ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav-menu  ul li a {
+    text-decoration: none;
+    padding-right: 26px;
+    color: #70f1da;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav-menu ul li a:hover {
+    transition: all 0.3s;
+    color: #26cbe0;
+    font-size: 17px;
+    transform: scale(1.1);
+    display: inline-flex;
+    text-decoration:underline;
 }
 
 .container {
@@ -25,4 +48,5 @@ header ul {
     display: inherit;
     justify-content: inherit;
     height: inherit;
+    align-items: center;
 }
