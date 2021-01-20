@@ -21,7 +21,7 @@ header {
     height: 90px;
 }
 .logo img {
-    width: 80px;
+    width: 50px;
 }
 
 header ul {
@@ -38,13 +38,13 @@ header ul {
 .nav-menu  ul li a {
     text-decoration: none;
     padding-right: 26px;
-    color: #70f1da;
+    color:#01745e;
     font-family: 'Source Code Pro', monospace;
 }
 
 .nav-menu ul li a:hover {
     transition: all 0.3s;
-    color: #26cbe0;
+    color: #70f1da;
     font-size: 17px;
     transform: scale(1.1);
     display: inline-flex;
@@ -58,8 +58,26 @@ body {
     margin: 0;   
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: -2em;
+    color:#01745e;
+    margin: 0;
+}
+
+h1 strong {
+    color: #70f1da;
+}
+
 .hero {
     background: #0a192f;
+    height: 300px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content:space-between;
 }
